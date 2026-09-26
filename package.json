@@ -1,0 +1,26 @@
+{
+  "name": "toast",
+  "version": "1.0.0",
+  "description": "A portable MCP context layer designed to reduce cognitive load across life and work.",
+  "keywords": [
+    "mcp",
+    "ai",
+    "context",
+    "personal-knowledge"
+  ],
+  "homepage": "https://github.com/nataliedodd/toast#readme",
+  "bugs": {
+    "url": "https://github.com/nataliedodd/toast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliedodd/toast.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Natalie Dodd",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
