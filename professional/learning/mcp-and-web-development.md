@@ -41,13 +41,13 @@ Create a local MCP server that retrieves information from:
 - [x] Write `TOAST.md` with its purpose and principles.
 - [x] Save the initial home measurements.
 - [x] Initialise `package.json` with version `1.0.0`.
-- [ ] Save this learning plan and the Token Lab notes.
-- [ ] Set up TypeScript.
-- [ ] Install the MCP SDK.
-- [ ] Build the smallest useful Toast MCP server.
-- [ ] Run and test it locally.
-- [ ] Connect an MCP-compatible AI client.
-- [ ] Complete the success test.
+- [x] Save this learning plan and the Token Lab notes.
+- [x] Set up TypeScript.
+- [x] Install the MCP SDK.
+- [x] Build the smallest useful Toast MCP server.
+- [x] Run and test it locally.
+- [x] Connect an MCP-compatible AI client.
+- [x] Complete the success test: retrieved the fridge measurements through Claude Desktop.
 - [ ] Record and tag the first working release.
 
 ### Success test
