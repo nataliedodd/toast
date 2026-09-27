@@ -29,6 +29,8 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@modelcontextprotocol/server": "^2.1.0"
+    "@modelcontextprotocol/server": "^2.1.0",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.5"
   }
 }
