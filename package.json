@@ -21,16 +21,24 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "toast": "tsc && node dist/server.js"
+    "test": "npm run build && node --test test/*.test.mjs",
+    "toast": "tsc && node dist/server.js",
+    "remote": "tsc && node dist/remote-server.js",
+    "build": "tsc",
+    "start": "node dist/http.js",
+    "http": "npm run build && node --env-file=.env dist/http.js"
   },
   "devDependencies": {
     "@types/node": "^24.19.0",
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@modelcontextprotocol/node": "^2.1.0",
     "@modelcontextprotocol/server": "^2.1.0",
     "tsx": "^4.23.15",
     "zod": "^4.6.5"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
